@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.example.multimod</groupId>
     <artifactId>grandpa</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${release}.${sha1}${changelist}</version>
   </parent>
   <artifactId>child</artifactId>
   <packaging>pom</packaging>
