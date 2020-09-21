@@ -11,13 +11,14 @@
     <revision>1.0</revision>
     <sha1>0</sha1>
     <changelist>-SNAPSHOT</changelist>
+    <flatten.version>1.2.5</flatten.version>
   </properties>
   <build>
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
-        <version>1.2.2</version>
+        <version>${flatten.version}</version>
         <configuration>
           <updatePomFile>true</updatePomFile>
           <flattenMode>resolveCiFriendliesOnly</flattenMode>
